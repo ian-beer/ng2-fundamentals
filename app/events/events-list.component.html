@@ -1,0 +1,15 @@
+<div><h1>Upcoming Angular 2 Events</h1>
+    <hr>
+        </div>
+    <div class="well hoverwell thumbnail">
+        <h2>{{events[0].name}}</h2>
+        <div>Date: {{events[0].date}}</div>
+        <div>time: {{events[0].time}}</div>
+        <div>Price: ${{events[0].price}}</div>
+        <div>
+            <span>Location: {{events[0].location.address}}</span>
+            <span>&nbsp;</span>
+            <span>{{events[0].location.city}}, {{events[0].location.country}}</span>
+                    </div>
+    </div>
+    <pre id="viewmodel-dump">{{this | json}}</pre>
